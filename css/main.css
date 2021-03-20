@@ -46,7 +46,7 @@ main {
 
 .menu li {
   justify-content: space-between;
-  width: 33%;
+  width: 50%;
   text-align: center;
   list-style: none;
 }
@@ -73,20 +73,37 @@ main {
 .corpo {
   width: 100%;
   background-image: url("/img/back.png");
-  border: 3px solid #000;
   display: flex;
+  height: auto;
 }
 
 .foto {
   width: 20%;
-  text-align: center;
+  align-items: center;
 }
 
-.sobre {
+.texto {
   width: 80%;
   padding: 0 20px;
 }
 
+p {
+  margin: auto;
+  padding: 10%;
+  font-size: 140%;
+}
+
 .foto img {
+  display: flex;
+  margin: auto;
   height: 50%;
+  padding: 10%;
+}
+
+.foto-moon img {
+  display: flex;
+  margin: 25%;
+  height: 50%;
+  padding: 10%;
+  width: 100%;
 }
